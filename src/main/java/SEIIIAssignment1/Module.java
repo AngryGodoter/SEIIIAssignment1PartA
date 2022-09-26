@@ -5,10 +5,10 @@ public class Module {
 	private String name;
 	private String id;
 	private Student[] students;
-	private String[] courses;
+	private Course[] courses;
 	private Lecturer lecturer;
 	
-	public Module(String name, String id, Student[] students, String[] courses, Lecturer lecturer)
+	public Module(String name, String id, Student[] students, Course[] courses, Lecturer lecturer)
 	{
 		this.setName(name);
 		this.setId(id);
@@ -62,14 +62,14 @@ public class Module {
 	/**
 	 * @return the courses
 	 */
-	public String[] getCourses() {
+	public Course[] getCourses() {
 		return courses;
 	}
 
 	/**
 	 * @param courses the courses to set
 	 */
-	public void setCourses(String[] courses) {
+	public void setCourses(Course[] courses) {
 		this.courses = courses;
 	}
 

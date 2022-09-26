@@ -11,7 +11,7 @@ public class Lecturer {
 	private final int id;
 	private Module[] modulesTeaching;
 	
-	public Lecturer(String name, int age, DateTime dob, int id, String course, Module[] modulesTeaching)
+	public Lecturer(String name, int age, DateTime dob, int id, Module[] modulesTeaching)
 	{
 		this.setName(name);
 		this.setAge(age);

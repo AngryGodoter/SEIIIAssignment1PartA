@@ -15,7 +15,7 @@ public class GetUsernameTest {
 		Student s1 = new Student("DavidSwain", 20, new DateTime("2002-06-02"), 1, null, null);
 		Student s2 = new Student("KarlBuck", 21, new DateTime("2001-11-03"), 2, null, null);
 		//create a lecturer
-		Lecturer l1 = new Lecturer("BakeFenney", 42, new DateTime("1980-09-22"), 1, null, null);
+		Lecturer l1 = new Lecturer("BakeFenney", 42, new DateTime("1980-09-22"), 1, null);
 		
 		//test the getUsername method
 		System.out.println("The first student is called: " + s1.getName());
